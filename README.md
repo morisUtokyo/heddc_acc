@@ -63,11 +63,11 @@ The first line shows the total execution time of the entire program (excluding s
 Outputs the result of string decomposer in FASTA-like format. The correspondence of unit IDs and their sequences is shown in the first line, in (number, unit sequence) format.
 ```encodings.txt
 # units: (0, ACC) (1, AGC) 
-> seq1
+> seq1 = ACCACCACCACCACCACCAGC
 0 0 0 0 0 0 1 
-> seq2
+> seq2 = ACCACCACCACCACCAGC
 0 0 0 0 0 1 
-> seq3
+> seq3 = ACCACCACCACCACCAGCAGC
 0 0 0 0 0 1 1 
 ```
 
